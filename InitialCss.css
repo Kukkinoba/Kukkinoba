@@ -1,0 +1,157 @@
+/*
+	Colors: 
+	Dark Purple - #2D2436
+	Cyber Grape - #503C7A 
+	Plum Purple - #6247AA
+	Middle Blue Purple - #8A75C0
+	Thistle - #C5BAE0
+*/
+
+
+/*Everything considering the header*/
+
+
+#Heading{
+	
+	font-family: 'Varela Round', sans-serif;
+	font-size:15px;
+	user-select: none;
+	z-index:2;
+	position:sticky;
+}
+
+.HDhr{
+	color:white;
+	width: auto;
+	z-index:inherit;
+}
+
+.logo{
+	width:12%;
+	height:12%;
+	padding-top:10px;
+	border-bottom:#fff 2px solid;
+	z-index:inherit;
+}
+
+header a:hover{
+	font-weight:bold;
+	color:#fff;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+/*Everything considering the nav bar section*/
+
+.currentPage{
+	font-weight:bold;
+	color:#fff;
+	border-bottom:#fff 2px solid;
+	padding:10px;
+	padding-bottom:20px;
+	border-radius:2px;
+}
+
+
+.menu{
+	color:#B6B6B6;
+	text-align:center;
+	padding-top:20px;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+/*Everything considering the body and each section*/
+body{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family: 'Comfortaa';
+	user-select: none;
+}
+
+.bgimage{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:auto;
+	width:auto;
+	position:fixed;
+	right:0;
+	bottom:0;
+	object-fit:cover;
+	z-index:-1;
+	left:0;
+	top:0;
+	filter: blur(1px);
+	-webkit-filter: blur(2px);
+	transform:scale(1.01);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+/*Everything considering the footer*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+/*Everything considering the extra elements*/
+
+.lines{
+	margin-top:20px;
+	width:70%;
+	border: 0px solid #fff;
+	border-radius: 1px;
+	border-bottom:#fff 2px solid;
+	z-index:inherit;
+}
+
+
+#particles-js{
+	z-index:-1;
+	position:fixed;
+	width:100%;
+	height:100%;
+}
+
+iframe[seamless] {
+    border: none;
+	width:450px;
+	height:200px;	
+}
+
+
+#stickymusic{
+	z-index:100;
+}
+
+footer{
+
+	position:fixed;
+	right:-7%;
+	bottom:-5%;
+	transform:Scale(0.5);
+}
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { 
+text-decoration: none; 
+cursor:pointer;
+}
+a:active { text-decoration: none; }
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Varela+Round&display=swap'); 
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+/*Everything considering the pictures*/
+
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+
